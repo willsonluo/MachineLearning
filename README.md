@@ -12,8 +12,8 @@ MachineLearning Study Note.
 Supervised learning  
 Unsupervised learning.    
 ## Module contain:  
-PCA(Principal component analysis)
-SVM(Support Vector Machine)
+PCA(Principal component analysis)  
+SVM(Support Vector Machine)  
 Decision Tree & Random Forest  
 Naive Bayes  
 Line Regression
