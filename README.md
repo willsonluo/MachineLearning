@@ -1,3 +1,4 @@
+These demoes are base on scikit-Learn, python's sklearn module.  
 # MachineLearning  
 MachineLearning Study Note.  
 Contain supervised learning and unsupervised learning.   
