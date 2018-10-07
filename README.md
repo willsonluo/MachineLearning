@@ -9,8 +9,12 @@ OS env: Win10 X64 Simple Chinese Version
 ## Topic: Machine Learning  
 MachineLearning Study Note.  
 ## Method:
-Supervised learning  
-Unsupervised learning.    
+Sklearn -- Supervised learning.   
+Sklearn -- Unsupervised learning.    
+Sklearn -- Semi-supervised learning.  
+Reinforcement learning.  
+Genetic algorithm.
+
 ## Module contain:  
 PCA(Principal component analysis)  
 SVM(Support Vector Machine)  
