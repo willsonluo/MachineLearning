@@ -39,7 +39,7 @@ def split():
 
 
 if __name__ == '__main__':
-    for i in range(10):
+    for i in range(100):
         pic_name = int(time.time() * 1000000)
         download_pics(pic_name)
     split()
