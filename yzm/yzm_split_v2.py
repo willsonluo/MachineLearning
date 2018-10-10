@@ -23,7 +23,7 @@ for abc in range(len(img_list)):
 
 
    # 核心代码，注意调整要切割的线
-    split_lines = [4,20,32,45,60]
+    split_lines = [4,20,32,46,60]
     vlines = [plt.axvline(i, color='r') for i in split_lines] # 画出分割线
     plt.show()
     y_min=1

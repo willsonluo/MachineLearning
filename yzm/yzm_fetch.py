@@ -30,7 +30,7 @@ def split():
         clean('yzm_data' + os.sep + img_list[abc])
         img = Image.open('yzm_data'+ os.sep + img_list[abc])
         im = img.convert("L")
-        split_lines = [4,16,32,46,60]
+        split_lines = [4,18,32,46,60]
         y_min = 1
         y_max = 23
         for x_min, x_max in zip(split_lines[:-1], split_lines[1:]):
