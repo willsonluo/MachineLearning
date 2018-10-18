@@ -3,17 +3,12 @@
 @Time: 2018 Oct 11
 @Author: Willson Luo
 """
-import requests
-import time
-import os
-import cv2
-from PIL import Image
 from yzm_class import *
-import numpy as np
+import base64
 
 
 def downloadCleanSplit():
-    fetch_num = 100
+    fetch_num = 20
     url = 'https://app.singlewindow.cn/cas/plat_cas_verifycode_gen'
     for i in range(fetch_num):
         yzm_download(url)
@@ -32,5 +27,6 @@ def predict():
         os.rename('yzm_download'+os.sep+yzm_file[i], 'yzm_download'+os.sep+ words +"_"+str(int(time.time()*1000000))+'.jpg')
         print(words)
 
-downloadCleanSplit()    #下载10个验证码
+
+downloadCleanSplit()  # 下载10个验证码
 predict()  # 预测验证码

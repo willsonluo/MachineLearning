@@ -16,6 +16,7 @@ import numpy as np
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.externals import joblib
 
+path = os.path
 
 def yzm_download(down_url):
   #  url = 'https://app.singlewindow.cn/cas/plat_cas_verifycode_gen'
@@ -30,7 +31,6 @@ def yzm_download(down_url):
 
 
 def yzm_clean(yzm_file):
-    print(os.getcwd())
     img = cv2.imread(yzm_file, 0)  # 直接读为灰度图像
     ret, thresh1 = cv2.threshold(img, 30, 255, cv2.THRESH_BINARY)
     cv2.imwrite(yzm_file, thresh1)
