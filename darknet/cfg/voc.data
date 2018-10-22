@@ -1,0 +1,6 @@
+classes= 1
+train  = Getdata/trainImagePath.txt
+valid  = Getdata/validateImagePath.txt
+names = data/yolo.names
+backup = backup
+
